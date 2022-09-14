@@ -1,0 +1,23 @@
+@import '../styles/_abstracts/typography';
+@import '../styles/_abstracts/colours';
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.button {
+  text-decoration: none;
+  font-family: $secondary-font;
+  font-size: 2rem;
+  color: $accent-blue;
+}

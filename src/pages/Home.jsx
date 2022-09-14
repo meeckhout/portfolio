@@ -1,16 +1,24 @@
 import '../styles/Home.scss';
+import TypeWriterEffect from 'react-typewriter-effect';
 
 const Home = () => {
     return (
-        <div className="container" id="home">
+        <div className="container">
+
             <h1>
-                Hi, <br />
+                Hi,
                 I'm Marthe, <br />
                 web developer and designer.
             </h1>
-            <span>
-
-            </span>
+            <div className="glitch">
+               <TypeWriterEffect
+                   textStyle={{ fontFamily: 'VT323', fontSize: '3rem' }}
+                   startDelay={100}
+                   cursorColor="white"
+                   text="I like making pretty things."
+                   typeSpeed={80}
+               />
+            </div>
         </div>
     );
 };

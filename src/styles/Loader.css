@@ -27,7 +27,7 @@
 .loading .loading-text span {
   display: inline-block;
   margin: 0 5px;
-  color: var(--main-color);
+  color: white;
 }
 .loading .loading-text span:nth-child(1) {
   animation: blur-text 1.5s 0s infinite linear alternate;

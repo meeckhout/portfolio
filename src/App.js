@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { motion, AnimatePresence } from "framer-motion";
 import './App.css';
 import {Layout, Home, About, Portfolio, Contact, NoPage} from '../src/pages'
 import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
@@ -11,7 +10,7 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        }, 18000);
+        }, 2500);
     }, []);
 
     return (

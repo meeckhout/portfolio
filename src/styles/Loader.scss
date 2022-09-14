@@ -11,6 +11,7 @@
   background-color: var(--main-bg-color);
   z-index: 9999;
   text-align: center;
+
   .loading-text {
     position: absolute;
     top: 0;
@@ -21,11 +22,13 @@
     height: 100%;
     margin: auto;
     line-height: 100vh;
+
     span {
       display: inline-block;
       margin: 0 5px;
-      color: var(--main-color);
+      color: white;
       @for $i from 0 through 6 {
+
         &:nth-child(#{$i + 1}) {
           animation: blur-text 1.5s #{$i/5}s infinite linear alternate;
         }
