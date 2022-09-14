@@ -1,0 +1,8 @@
+@import '../styles/_abstracts/typography';
+@import '../styles/_abstracts/colours';
+
+.container {
+  background-color: $primary-black;
+  height: 100vh;
+  width: 100%;
+}
