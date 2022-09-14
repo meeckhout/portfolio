@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import Logo_M from '../assets/images/Logo_M.png';
 import '../styles/Layout.scss';
 
 const Layout = () => {
@@ -6,6 +7,7 @@ const Layout = () => {
         <>
             <nav>
                 <ul>
+                    <img src={Logo_M} alt="logo" />
                     <li>
                         <Link to="/">Home</Link>
                     </li>
