@@ -27,7 +27,5 @@ F
 src/styles/Loader.scss,7/f/7fc75140fd0af486e259dcbf0f522750e2eb2530
 I
 src/components/Loader.jsx,f/a/fab2d377f510afceda16fe162ec107b58cee07d4
-U
-%src/styles/_abstracts/typography.scss,0/9/0919bc63a725fb09b97a6432b2715ac25db5d314
 D
 src/styles/Home.scss,0/a/0a4c7574fc0d49cc20e295aabb4a30d917b9e159

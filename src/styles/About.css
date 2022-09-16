@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   line-height: 3.2rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .likes {
@@ -29,6 +29,25 @@
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.lastfm {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+.lastfm .listening-to {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.title-about {
+  display: flex;
+  justify-content: center;
+  font-family: "VT323", monospace;
+  font-size: 8rem;
+  margin-top: 2.5rem;
 }
 
 /*# sourceMappingURL=About.css.map */

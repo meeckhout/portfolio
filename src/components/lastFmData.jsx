@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import '../styles/LastFmData.scss';
 
 const LastFmData= ({ userName }) => {
     const apiKey = process.env.REACT_APP_LASTFM_CLIENT_ID;
@@ -34,8 +33,9 @@ const LastFmData= ({ userName }) => {
             { name: songName, artist: { '#text': artistName } = {} } = {}
         ] = track;
 
-        return <h3>Currently listening to:
-            <br />{songName} by {artistName}</h3>;
+        return <span>
+            <br />{songName} by {artistName}
+            </span>
     };
 
     return buildLastFmData();

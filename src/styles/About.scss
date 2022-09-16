@@ -1,16 +1,12 @@
 @import '../styles/_abstracts/typography';
 @import '../styles/_abstracts/colours';
 
-.container {
-
-}
-
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 3.2rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .likes {
@@ -32,4 +28,24 @@
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+.lastfm {
+  margin: 5rem;
+  font-size: 1.5rem;
+
+  .listening-to {
+    font-family: $primary-font;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+}
+
+.title-about {
+  display: flex;
+  justify-content: center;
+  font-family: $secondary-font;
+  font-size: 8rem;
+  margin-top: 2.5rem;
 }
