@@ -1,10 +1,15 @@
 @import '../styles/_abstracts/typography';
 @import '../styles/_abstracts/colours';
 
+.container {
+
+}
+
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 3.2rem;
   margin-top: 10rem;
 }
 
@@ -12,7 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 4rem;
+  line-height: 8rem;
 }
 
 .button {
@@ -20,4 +25,11 @@
   font-family: $secondary-font;
   font-size: 2rem;
   color: $accent-blue;
+}
+
+.meatballs{
+  width: 40rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
