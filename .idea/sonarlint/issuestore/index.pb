@@ -17,8 +17,6 @@ F
 src/styles/Loader.scss,7/f/7fc75140fd0af486e259dcbf0f522750e2eb2530
 I
 src/components/Loader.jsx,f/a/fab2d377f510afceda16fe162ec107b58cee07d4
-A
-public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

@@ -10,17 +10,23 @@ const Social = () => {
                 <div className="social-med">
                     <span className="linkedin">
                         <IconContext.Provider value={{ color: 'white' }}>
-                            <FaLinkedinIn size={25} />
+                            <a href="https://www.linkedin.com/in/marthe-eeckhout/">
+                                <FaLinkedinIn size={25} />
+                            </a>
                         </IconContext.Provider>
                     </span>
                     <span className="behance">
                          <IconContext.Provider value={{ color: 'white' }}>
-                            <FaBehance size={30} />
+                             <a href="https://www.behance.net/marthe-eeckhout">
+                                <FaBehance size={30} />
+                             </a>
                         </IconContext.Provider>
                     </span>
                     <span className="github">
                          <IconContext.Provider value={{ color: 'white' }}>
-                            <FaGithub size={25} />
+                             <a href="https://github.com/meeckhout">
+                                <FaGithub size={25} />
+                             </a>
                         </IconContext.Provider>
                     </span>
                 </div>
