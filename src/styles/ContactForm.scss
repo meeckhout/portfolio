@@ -1,0 +1,32 @@
+@import '../styles/_abstracts/typography';
+@import '../styles/_abstracts/colours';
+
+
+.form {
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  .name-email, input {
+    display: flex;
+    flex-direction: row;
+    width: 46rem;
+    height: 3rem;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+
+  .message, textarea {
+    border-radius: .3rem;
+    width: 44.5rem;
+    height: 10rem;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+}
