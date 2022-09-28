@@ -34,6 +34,7 @@
 .lastfm {
   margin: 5rem;
   font-size: 1.5rem;
+  position: relative;
 }
 .lastfm .listening-to {
   font-family: "Roboto", sans-serif;

@@ -22,13 +22,13 @@ const About = () => {
             <div className="lastfm">
                 <span className="listening-to">Currently listening to</span>
                 <LastFmData
-                    userName={'pityparty-'}
+                    userName={'$userName'}
                     apiKey={'$apiKey'}/>
             </div>
 
-            <a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>
-                <FaFileDownload /> Download CV
-            </a>
+            {/*<a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>*/}
+            {/*    <FaFileDownload /> Download CV*/}
+            {/*</a>*/}
         </div>
     );
 };
