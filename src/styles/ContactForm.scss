@@ -1,11 +1,34 @@
 @import '../styles/_abstracts/typography';
 @import '../styles/_abstracts/colours';
 
+.submitted-message {
+  font-family: $secondary-font;
+  font-size: 3rem;
+  color: white;
+
+  .horns-up {
+    height: 10rem;
+    margin-top: 6rem;
+  }
+}
+
 .form {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+
+
+  .contact-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
 
   .name-email, input {
     display: flex;

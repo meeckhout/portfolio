@@ -2,11 +2,31 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap");
+.submitted-message {
+  font-family: "VT323", monospace;
+  font-size: 3rem;
+  color: white;
+}
+.submitted-message .horns-up {
+  height: 10rem;
+  margin-top: 6rem;
+}
+
 .form {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+}
+.form .contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "VT323", monospace;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .form .name-email, .form input {
   display: flex;

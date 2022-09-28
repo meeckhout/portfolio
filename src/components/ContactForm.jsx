@@ -15,8 +15,11 @@ const ContactForm = () => {
     if (submitted) {
         return (
             <>
-                <h2>Thank you!</h2>
-                <div>We'll be in touch soon.</div>
+                <div className="submitted-message">
+                    <h2>Thank you!</h2>
+                    <div>I'll be in touch soon.</div>
+                    <img className="horns-up" src="https://cdn-icons-png.flaticon.com/512/1776/1776554.png" alt="horns up" />
+                </div>
             </>
         );
     }
@@ -29,6 +32,7 @@ const ContactForm = () => {
             target="_blank"
         >
             <div className="form">
+                <span className="contact-title">Contact me</span>
                 <div className="name-email">
                     <input type="text" placeholder="Name" name="name" required />
                     <input type="email" placeholder="Email" name="email" required />
