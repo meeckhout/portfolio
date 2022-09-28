@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import '../styles/ContactForm.scss';
 
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/334fd880-3f14-11ed-a10f-d1a38bd15d37";
 
 const ContactForm = () => {
-
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
         setTimeout(() => {
@@ -37,8 +36,8 @@ const ContactForm = () => {
                 <div className="message">
                     <textarea placeholder="Message" name="message" required />
                 </div>
-                <div>
-                    <button type="submit"> Send a message </button>
+                <div className="btn-message">
+                    <button type="submit"> Send message! </button>
                 </div>
             </div>
         </form>

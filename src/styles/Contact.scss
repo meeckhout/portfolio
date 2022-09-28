@@ -3,6 +3,22 @@
 
 .contact-form {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 15rem 0 0 5rem;
+
+  .contact-title {
+    display: flex;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.social-media-bar {
+  display: flex;
+  justify-content: center;
 }

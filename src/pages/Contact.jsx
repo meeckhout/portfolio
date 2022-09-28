@@ -6,10 +6,12 @@ const Contact = () => {
     return (
         <>
             <div className="contact-form">
+                <span className="contact-title">Contact me</span>
                 <ContactForm />
             </div>
-
-            <Social />
+            <div className="social-media-bar">
+                <Social />
+            </div>
         </>
     );
 };

@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap");
 .form {
-  width: 45rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -22,9 +21,56 @@
 }
 .form .message, .form textarea {
   border-radius: 0.3rem;
-  width: 44.5rem;
+  width: 45rem;
   height: 10rem;
   text-decoration: none;
+  border: none;
+  outline: none;
+}
+.form input, .form textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-indent: 1rem;
+}
+.form input {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+.form input:focus::placeholder {
+  color: transparent;
+}
+.form textarea {
+  padding-top: 1rem;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+.form textarea:focus,
+.form input:focus {
+  border: 0.1rem solid #00BCE5;
+  box-shadow: 0 0 0.1rem 0.1rem #00BCE5;
+}
+.form textarea:focus::placeholder {
+  color: transparent;
+}
+.form button, .form .btn-message {
+  font-family: "VT323", monospace;
+  font-size: 1.4rem;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 0.5rem;
+}
+.form button:hover {
+  color: white;
+  background-color: #00BCE5;
+  border-radius: 0.3rem;
   border: none;
   outline: none;
 }

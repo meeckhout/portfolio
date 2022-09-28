@@ -1,0 +1,20 @@
+@import '../styles/_abstracts/typography';
+@import '../styles/_abstracts/colours';
+
+
+.soc-med-bottom {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+
+  .social-med {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 5rem;
+
+    .linkedin, .behance, .github {
+
+    }
+  }
+}

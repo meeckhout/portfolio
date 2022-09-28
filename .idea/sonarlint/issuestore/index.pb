@@ -3,12 +3,8 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 G
 src/pages/Portfolio.jsx,8/3/8304b370e9069a77b70c8b09a54ad9d119f2323b
-I
-src/components/Footer.jsx,8/2/8292f64d2de4032e9c7b7614534e68315052f34a
 =
 src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 ;
@@ -23,8 +19,6 @@ I
 src/components/Loader.jsx,f/a/fab2d377f510afceda16fe162ec107b58cee07d4
 A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
-R
-"src/styles/_abstracts/colours.scss,1/a/1a7d4a734c31c528b25c160e1ff197ead148fb34
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

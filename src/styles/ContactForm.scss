@@ -1,9 +1,7 @@
 @import '../styles/_abstracts/typography';
 @import '../styles/_abstracts/colours';
 
-
 .form {
-  width: 45rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,9 +21,59 @@
 
   .message, textarea {
     border-radius: .3rem;
-    width: 44.5rem;
+    width: 45rem;
     height: 10rem;
     text-decoration: none;
+    border: none;
+    outline: none;
+  }
+
+  input, textarea {
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: .9rem;
+    text-indent: 1rem;
+  }
+
+  input {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+  }
+
+  input:focus::placeholder {
+    color: transparent;
+  }
+
+  textarea {
+    padding-top: 1rem;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+
+  textarea:focus,
+  input:focus{
+    border: .1rem solid $accent-blue;
+    box-shadow: 0 0 .1rem .1rem  $accent-blue;
+  }
+
+  textarea:focus::placeholder {
+    color: transparent;
+  }
+
+  button, .btn-message {
+    font-family: $secondary-font;
+    font-size: 1.4rem;
+    width: 10rem;
+    height: 3rem;
+    margin-top: .5rem;
+  }
+
+  button:hover {
+    color: white;
+    background-color: $accent-blue;
+    border-radius: .3rem;
     border: none;
     outline: none;
   }
