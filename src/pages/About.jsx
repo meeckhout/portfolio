@@ -1,7 +1,7 @@
 import '../styles/About.scss';
 import meatballs_forlife from '../assets/images/meatballs_forlife.gif';
-// import { FaFileDownload } from 'react-icons/fa';
-import {LastFmData} from '../components/LastFmData';
+import { FaFileDownload } from 'react-icons/fa';
+import {LastFmData} from '../components';
 
 const About = () => {
     return (
@@ -23,12 +23,13 @@ const About = () => {
                 <span className="listening-to">Currently listening to</span>
                 <LastFmData
                     userName={'$userName'}
-                    apiKey={'$apiKey'}/>
+                    apiKey={'$apiKey'}
+                />
             </div>
 
-            {/*<a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>*/}
-            {/*    <FaFileDownload /> Download CV*/}
-            {/*</a>*/}
+            <a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>
+                <FaFileDownload /> Download CV
+            </a>
         </div>
     );
 };
