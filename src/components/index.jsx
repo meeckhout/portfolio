@@ -11,5 +11,5 @@ export {
     Header,
     LastFmData,
     Loader,
-    Social
+    Social,
 }

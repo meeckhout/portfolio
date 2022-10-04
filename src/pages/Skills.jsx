@@ -11,24 +11,38 @@ const Skills = () => {
     return (
         <>
         <div className="container-skills">
-            <div className="html">
-                <span className="bar-title">HTML</span>
-                <progress id="health" value="80" max="100"></progress>
-            </div>
+            <div className="grid">
+                <div className="web">
+                    <img className="icon" src="https://cdn-icons-png.flaticon.com/512/6509/6509766.png" alt ="code" />
+                    <span className="skills-title">Web Dev (front end)</span>
+                    <span className="skills-txt">
+                        Working with html, scss, js and React, using css frameworks like Tailwind and Bootstrap.
+                        Using git (command line) and npm. Basic back end knowledge: php, laravel, mysql.
+                    </span>
+                </div>
+                <div className="design">
+                    <img className="icon" src="https://cdn-icons-png.flaticon.com/512/6509/6509766.png" alt ="code" />
+                    <span className="skills-title">Web Design</span>
+                    <span className="skills-txt">
+                        Creating wireframes and mock-ups using Figma or Sketch. Using scss to create custom web design.
 
-            <div className="scss">
-                <span className="bar-title">SCSS</span>
-                <progress id="health" value="85" max="100"></progress>
-            </div>
+                    </span>
+                </div>
+                <div className="ui">
+                    <img className="icon" src="https://cdn-icons-png.flaticon.com/512/6509/6509766.png" alt ="code" />
+                    <span className="skills-title">UI/UX</span>
+                    <span className="skills-txt">
 
-            <div className="js">
-                <span className="bar-title">JavaScript</span>
-                <progress id="health" value="70" max="100"></progress>
-            </div>
-
-            <div className="react">
-                <span className="bar-title">React</span>
-                <progress id="health" value="60" max="100"></progress>
+                    </span>
+                </div>
+                <div className="tbc">
+                    <img className="icon" src="https://cdn-icons-png.flaticon.com/512/6509/6509766.png" alt ="code" />
+                    <span className="skills-title">Something</span>
+                    <span className="skills-txt">
+                        Working with html, scss, js and React, using css frameworks like Tailwind and Bootstrap.
+                        Using git (command line) and npm. Basic back end knowledge: php, laravel, mysql.
+                    </span>
+                </div>
             </div>
 
             <div className="logos">

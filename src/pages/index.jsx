@@ -5,6 +5,7 @@ import Skills from '../pages/Skills';
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
 import NoPage from '../pages/NoPage';
+import WeatherApp from '../pages/WeatherApp';
 
 export {
     Layout,
@@ -13,5 +14,6 @@ export {
     Skills,
     Portfolio,
     Contact,
-    NoPage
+    NoPage,
+    WeatherApp
 }

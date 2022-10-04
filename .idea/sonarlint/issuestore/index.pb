@@ -3,8 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
-G
-src/pages/Portfolio.jsx,8/3/8304b370e9069a77b70c8b09a54ad9d119f2323b
 =
 src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 ;
@@ -22,10 +20,6 @@ I
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 U
 %src/styles/_abstracts/typography.scss,0/9/0919bc63a725fb09b97a6432b2715ac25db5d314
-H
-src/components/index.jsx,a/4/a4c46af8d3470562b8d65c165585a940c6de45f8
-D
-src/styles/Home.scss,0/a/0a4c7574fc0d49cc20e295aabb4a30d917b9e159
 F
 src/styles/Layout.scss,0/3/03e00bea97e729fdb077f15a7e5883157a48a0c0
 R
@@ -36,7 +30,19 @@ A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-K
-src/styles/ContactForm.scss,3/6/36ec1e12541e9c75a402ab364f9e6651f084ccb9
 F
 src/styles/Social.scss,1/2/1256a0161377036e18bdfa584a2cf6d0ecaa7538
+G
+src/styles/Contact.scss,a/1/a19499abe773c38f75d15eb6fb32efde018765d3
+I
+src/components/Social.jsx,3/8/38f11a721cb870ea427d4d2054a9b7ac1f44179b
+D
+src/pages/NoPage.jsx,4/2/4284697ac4e8f99e5d7d2e1805576b820febb2e8
+E
+src/pages/Contact.jsx,4/3/438b6436a4448f268ace03cefe1287fcd054789f
+N
+src/components/ContactForm.jsx,1/6/16c673a7d62313c4969797da4f67c5be624dd0ab
+M
+src/components/LastFmData.jsx,f/f/ffcb85d0be71fccb78efc9b5ba1e8f1af49b7b0d
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
