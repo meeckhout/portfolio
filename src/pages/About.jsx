@@ -1,6 +1,6 @@
 import '../styles/About.scss';
 import meatballs_forlife from '../assets/images/meatballs_forlife.gif';
-import { FaFileDownload } from 'react-icons/fa';
+// import { FaFileDownload } from 'react-icons/fa';
 import {LastFmData} from '../components';
 
 const About = () => {
