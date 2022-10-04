@@ -7,7 +7,7 @@ const WeatherApp = () => {
     return (
         <>
             <div className="container">
-                <div className="grid">
+                <div className="flex">
                     <img className="weatherapp-img" src={weatherapp_1} alt="weather app pic"/>
                     <img className="weatherapp-img" src={weatherapp_2} alt=""/>
                 </div>

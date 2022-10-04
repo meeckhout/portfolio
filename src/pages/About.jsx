@@ -27,9 +27,9 @@ const About = () => {
                 />
             </div>
 
-            <a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>
-                <FaFileDownload /> Download CV
-            </a>
+            {/*<a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>*/}
+            {/*    <FaFileDownload /> Download CV*/}
+            {/*</a>*/}
         </div>
     );
 };

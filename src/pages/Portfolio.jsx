@@ -17,7 +17,8 @@ const Portfolio = () => {
                     </div>
                     <div className="work">
                         <span className="project-title">Second Project</span>
-                        <img className="work_1" src={weatherapp_1} alt="weather app pic"/>
+                        <span>Under construction</span>
+                        {/*<img className="work_1" src={weatherapp_1} alt="weather app pic"/>*/}
                     </div>
                 </div>
             </div>
