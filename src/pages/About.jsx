@@ -1,6 +1,6 @@
 import '../styles/About.scss';
 import meatballs_forlife from '../assets/images/meatballs_forlife.gif';
-// import { FaFileDownload } from 'react-icons/fa';
+import { ImHeadphones } from 'react-icons/im';
 import {LastFmData} from '../components';
 
 const About = () => {
@@ -14,22 +14,20 @@ const About = () => {
             </span>
 
             <span className="likes">
-                I like the 90s, metal music, books, Swedish meatballs, coffee and Crossfit.
+                I like the 90s, metal music, gaming, books, Swedish meatballs, coffee and Crossfit.
             </span>
 
             <img className="meatballs" src={meatballs_forlife} alt="Swedish meatballs" />
 
             <div className="lastfm">
+                <ImHeadphones />
+                <br />
                 <span className="listening-to">Currently listening to</span>
                 <LastFmData
                     userName={'$userName'}
                     apiKey={'$apiKey'}
                 />
             </div>
-
-            {/*<a className="button" href="../assets/documents/CV_Marthe-Eeckhout.png" download>*/}
-            {/*    <FaFileDownload /> Download CV*/}
-            {/*</a>*/}
         </div>
     );
 };

@@ -52,8 +52,6 @@ B
 src/pages/Home.jsx,4/3/430200dcc19df010a7afe234d14af8f3c4a0b33b
 H
 src/components/index.jsx,a/4/a4c46af8d3470562b8d65c165585a940c6de45f8
-E
-src/styles/About.scss,d/d/ddf9fa93fe05a4a88d63f80ab135bdb979c20c53
 K
 src/styles/ContactForm.scss,3/6/36ec1e12541e9c75a402ab364f9e6651f084ccb9
 C

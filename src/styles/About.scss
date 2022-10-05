@@ -1,52 +1,57 @@
 @import '../styles/_abstracts/typography';
 @import '../styles/_abstracts/colours';
 
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 3.2rem;
-  margin-top: 5rem;
-}
+.container {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 
-.likes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 8rem;
-}
-
-.button {
-  text-decoration: none;
-  font-family: $secondary-font;
-  font-size: 2rem;
-  color: $accent-blue;
-}
-
-.meatballs{
-  width: 40rem;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.lastfm {
-  margin: 5rem;
-  font-size: 1.5rem;
-  position: relative;
-
-  .listening-to {
-    font-family: $primary-font;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
+  .title-about {
+    display: flex;
+    justify-content: center;
+    font-family: $secondary-font;
+    font-size: 8rem;
+    margin-top: 2.5rem;
   }
-}
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3.2rem;
+    margin-top: 3rem;
+  }
 
-.title-about {
-  display: flex;
-  justify-content: center;
-  font-family: $secondary-font;
-  font-size: 8rem;
-  margin-top: 2.5rem;
+  .likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 8rem;
+  }
+
+  .button {
+    text-decoration: none;
+    font-family: $secondary-font;
+    font-size: 2rem;
+    color: $accent-blue;
+  }
+
+  .meatballs{
+    width: 40rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .lastfm {
+    margin: 5rem;
+    font-size: 1.5rem;
+    position: relative;
+
+    .listening-to {
+      font-family: $primary-font;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+    }
+  }
 }

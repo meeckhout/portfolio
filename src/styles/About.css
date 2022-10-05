@@ -2,53 +2,53 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap");
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 3.2rem;
-  margin-top: 5rem;
+.container {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
-
-.likes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 8rem;
-}
-
-.button {
-  text-decoration: none;
-  font-family: "VT323", monospace;
-  font-size: 2rem;
-  color: #00BCE5;
-}
-
-.meatballs {
-  width: 40rem;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.lastfm {
-  margin: 5rem;
-  font-size: 1.5rem;
-  position: relative;
-}
-.lastfm .listening-to {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-.title-about {
+.container .title-about {
   display: flex;
   justify-content: center;
   font-family: "VT323", monospace;
   font-size: 8rem;
   margin-top: 2.5rem;
+}
+.container .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.2rem;
+  margin-top: 3rem;
+}
+.container .likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 8rem;
+}
+.container .button {
+  text-decoration: none;
+  font-family: "VT323", monospace;
+  font-size: 2rem;
+  color: #00BCE5;
+}
+.container .meatballs {
+  width: 40rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.container .lastfm {
+  margin: 5rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.container .lastfm .listening-to {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 /*# sourceMappingURL=About.css.map */

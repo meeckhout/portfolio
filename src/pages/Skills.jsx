@@ -31,7 +31,8 @@ const Skills = () => {
                     </div>
                     <span className="skills-txt">
                         Working with html, scss, js and React, using css frameworks like Tailwind and Bootstrap.
-                        Using git (command line) and npm. Basic back end knowledge: php, laravel, mysql.
+                        Using git (command line) and npm.
+                        Basic back end knowledge: php, laravel, mysql.
                     </span>
                 </div>
                 <div className="design">
@@ -56,7 +57,8 @@ const Skills = () => {
                     </div>
                     <span className="skills-title">UX/UI</span>
                     <span className="skills-txt">
-                        Making everything as easy and user-friendly as possible. Currently following a Google UX/UI course to level up my skills.
+                        Making everything as easy and user-friendly as possible.
+                        Currently following a Google UX/UI course to level up my skills.
                     </span>
                 </div>
                 <div className="tbc">
@@ -65,7 +67,9 @@ const Skills = () => {
                     </div>
                     <span className="skills-title">Soft skills</span>
                     <span className="skills-txt">
-                         Big believer in communication. Big fan of creativity. Willing to learn and grow. Gets along well with others. Lame sense of humour.
+                         Big believer in communication. Big fan of creativity. Willing to learn and grow. Gets along well with others.
+                        <br />
+                        Lame sense of humour.
                         <FaSmileBeam />
                     </span>
                 </div>
