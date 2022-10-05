@@ -46,3 +46,20 @@ M
 src/components/LastFmData.jsx,f/f/ffcb85d0be71fccb78efc9b5ba1e8f1af49b7b0d
 4
 .env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+D
+src/styles/Home.scss,0/a/0a4c7574fc0d49cc20e295aabb4a30d917b9e159
+B
+src/pages/Home.jsx,4/3/430200dcc19df010a7afe234d14af8f3c4a0b33b
+H
+src/components/index.jsx,a/4/a4c46af8d3470562b8d65c165585a940c6de45f8
+E
+src/styles/About.scss,d/d/ddf9fa93fe05a4a88d63f80ab135bdb979c20c53
+K
+src/styles/ContactForm.scss,3/6/36ec1e12541e9c75a402ab364f9e6651f084ccb9
+C
+src/pages/index.jsx,a/c/acc81c36557d8229ae7d4d064f6bdca7a69078ca
+:
+
+src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+D
+src/pages/Layout.jsx,b/8/b8d31635aaf7a9798b46c82e9a84a04e399e5508
