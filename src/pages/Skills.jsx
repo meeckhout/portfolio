@@ -68,8 +68,8 @@ const Skills = () => {
                     <span className="skills-title">Soft skills</span>
                     <span className="skills-txt">
                          Big believer in communication. Big fan of creativity. Willing to learn and grow. Gets along well with others.
-                        <br />
                         Lame sense of humour.
+                        <br />
                         <FaSmileBeam />
                     </span>
                 </div>

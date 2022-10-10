@@ -12,5 +12,9 @@
 .container .flex .weatherapp-img {
   width: 30%;
 }
+.container .flex .text-project {
+  display: flex;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=WeatherApp.css.map */
