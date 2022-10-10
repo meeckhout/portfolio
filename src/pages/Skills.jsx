@@ -67,10 +67,11 @@ const Skills = () => {
                     </div>
                     <span className="skills-title">Soft skills</span>
                     <span className="skills-txt">
-                         Big believer in communication. Big fan of creativity. Willing to learn and grow. Gets along well with others.
-                        Lame sense of humour.
-                        <br />
-                        <FaSmileBeam />
+                         Big believer in communication. Big fan of creativity. Willing to learn and grow.
+                        Gets along well with others. Lame sense of humour.
+                        <span className="logos">
+                            <FaSmileBeam />
+                        </span>
                     </span>
                 </div>
             </div>
