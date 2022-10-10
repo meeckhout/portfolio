@@ -13,15 +13,7 @@ const WeatherApp = () => {
                 <div className="flex">
                     <img className="weatherapp-img" src={weatherapp_1} alt="weather app pic"/>
                     <img className="weatherapp-img" src={weatherapp_2} alt=""/>
-
-                    <span>Design Process</span>
-                    <span className="text-project">
-                        <img src={thecityof} alt="The City of"/>
-                        <span className="explanation">
-                        <img src={font_title} alt="font title"/>
-                        </span>
-                        <img src={Ghent} alt="Ghent"/>
-                    </span>
+                    
                 </div>
             </div>
         </>
