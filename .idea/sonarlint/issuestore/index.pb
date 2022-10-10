@@ -15,9 +15,6 @@ F
 src/styles/Loader.scss,7/f/7fc75140fd0af486e259dcbf0f522750e2eb2530
 I
 src/components/Loader.jsx,f/a/fab2d377f510afceda16fe162ec107b58cee07d4
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 F
 src/styles/Layout.scss,0/3/03e00bea97e729fdb077f15a7e5883157a48a0c0
 R
@@ -36,8 +33,6 @@ I
 src/components/Social.jsx,3/8/38f11a721cb870ea427d4d2054a9b7ac1f44179b
 D
 src/pages/NoPage.jsx,4/2/4284697ac4e8f99e5d7d2e1805576b820febb2e8
-E
-src/pages/Contact.jsx,4/3/438b6436a4448f268ace03cefe1287fcd054789f
 N
 src/components/ContactForm.jsx,1/6/16c673a7d62313c4969797da4f67c5be624dd0ab
 D

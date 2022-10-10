@@ -1,7 +1,7 @@
 import '../styles/About.scss';
 import meatballs_forlife from '../assets/images/meatballs_forlife.gif';
 import { ImHeadphones } from 'react-icons/im';
-import {LastFmData} from '../components';
+import {LastFmData, Social} from '../components';
 
 const About = () => {
     return (
@@ -28,6 +28,7 @@ const About = () => {
                     apiKey={'$apiKey'}
                 />
             </div>
+            <Social/>
         </div>
     );
 };

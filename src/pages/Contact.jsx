@@ -1,5 +1,5 @@
 import React from 'react';
-import {ContactForm, Social} from '../components';
+import {ContactForm} from '../components';
 import '../styles/Contact.scss';
 
 const Contact = () => {
@@ -7,9 +7,6 @@ const Contact = () => {
         <>
             <div className="contact-form">
                 <ContactForm />
-            </div>
-            <div className="social-media-bar">
-                <Social />
             </div>
         </>
     );
