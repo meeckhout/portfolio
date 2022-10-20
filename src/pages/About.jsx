@@ -6,14 +6,12 @@ import {LastFmData, Social} from '../components';
 const About = () => {
     return (
         <div className="container">
-            <span className="title-about">Hello. Is it me you're looking for?</span>
+            <span className="title-about">Hello... <br/> Is it me you're looking for?</span>
 
             <span className="about">
-                I'm a front end developer and web designer based in Belgium, <br />
+                I am based in Belgium,
                 where I live with my two cats: Oliver and Negasonic Warhead.
-            </span>
-
-            <span className="likes">
+                <br/>
                 I like the 90s, metal music, gaming, books, Swedish meatballs, coffee and Crossfit.
             </span>
 
