@@ -9,7 +9,6 @@ import {BsCodeSlash} from 'react-icons/bs';
 import {MdOutlineDesignServices} from 'react-icons/md';
 import {HiUserGroup} from 'react-icons/hi';
 
-
 const Skills = () => {
     return (
         <>

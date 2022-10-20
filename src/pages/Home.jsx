@@ -4,7 +4,6 @@ import TypeWriterEffect from 'react-typewriter-effect';
 const Home = () => {
     return (
         <div className="container">
-
             <h1>
                 Hi,
                 I'm Marthe, <br />

@@ -5,7 +5,6 @@ import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
 import Loader from '../src/components/Loader';
 
 function App() {
-
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         setTimeout(() => {

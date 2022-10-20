@@ -9,6 +9,7 @@
     "dotenv": "^16.0.2",
     "eslint": "8.22.0",
     "framer-motion": "^7.3.5",
+    "include-media": "^1.4.10",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

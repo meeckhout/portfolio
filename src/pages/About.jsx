@@ -6,7 +6,7 @@ import {LastFmData, Social} from '../components';
 const About = () => {
     return (
         <div className="container">
-            <span className="title-about">HI!</span>
+            <span className="title-about">Hello. Is it me you're looking for?</span>
 
             <span className="about">
                 I'm a front end developer and web designer based in Belgium, <br />

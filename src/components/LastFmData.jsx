@@ -2,9 +2,10 @@ import React, {useState, useEffect} from 'react';
 
 const LastFmData= () => {
     const [lfmData, updateLfmData] = useState({});
+    const apiKey = process.env.REACT_APP_API_KEY;
+    const userName = process.env.REACT_APP_CLIENTID;
+
     useEffect(() => {
-        const apiKey = process.env.REACT_APP_API_KEY;
-        const userName = process.env.REACT_APP_CLIENTID;
         fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=${userName}&api_key=${apiKey}&limit=1&nowplaying=true&format=json`)
             .then(response => {
                 if (response.ok) {

@@ -1,24 +1,39 @@
 @import '../styles/_abstracts/typography';
 @import '../styles/_abstracts/colours';
 
-
 .container {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .flex {
+    margin-top: 5rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 
     .weatherapp-img {
-      width: 30%;
+      width: 50%;
+      height: 25rem;
+      margin-bottom: 3rem;
     }
+  }
 
-    .text-project {
-      display: flex;
-      flex-direction: column;
+  .link-project {
+    font-family: $secondary-font;
+    margin: 1rem 0 2rem 0;
+
+    .project-txt {
+      font-size: 1.8rem;
+
+      .link-github {
+        margin-left: .6rem;
+        text-decoration: none;
+        color: $accent-blue;
+      }
     }
   }
 }
