@@ -27,6 +27,7 @@
 }
 .container-weather .link-project .project-txt {
   font-size: 1.8rem;
+  color: white;
 }
 .container-weather .link-project .project-txt .link-github {
   margin-left: 0.6rem;
