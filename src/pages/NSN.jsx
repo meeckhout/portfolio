@@ -26,13 +26,13 @@ const NSN = () => {
                 <div className="link-project">
                     <span className="project-txt">
                         View project on
-                        <a className="link-github" href="https://www.behance.net/gallery/151631265/The-Nostalgia-Network-Messenger">
+                        <a className="link-github" href="https://github.com/meeckhout/nsn-messenger">
                             Github
                         </a>
                     </span>
                     <span className="project-txt">
                         View project on
-                        <a className="link-github" href="https://github.com/meeckhout/nsn-messenger">
+                        <a className="link-github" href="https://www.behance.net/gallery/151631265/The-Nostalgia-Network-Messenger">
                             Behance
                         </a>
                     </span>
