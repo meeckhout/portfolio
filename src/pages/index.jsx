@@ -6,6 +6,7 @@ import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
 import NoPage from '../pages/NoPage';
 import WeatherApp from '../pages/WeatherApp';
+import NSN from '../pages/NSN';
 
 export {
     Layout,
@@ -15,5 +16,6 @@ export {
     Portfolio,
     Contact,
     NoPage,
-    WeatherApp
+    WeatherApp,
+    NSN
 }

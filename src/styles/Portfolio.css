@@ -35,7 +35,7 @@
 .grid .work a:hover {
   color: #00BCE5;
 }
-.grid .work_1 {
+.grid .work_1, .grid .work_2 {
   width: 50%;
 }
 

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import {Layout, Home, About, Skills, Portfolio, Contact, NoPage, WeatherApp} from '../src/pages'
+import {Layout, Home, About, Skills, Portfolio, Contact, NoPage, WeatherApp, NSN} from '../src/pages'
 import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
 import Loader from '../src/components/Loader';
 
@@ -24,6 +24,7 @@ function App() {
                             <Route path="skills" element={<Skills/>}/>
                             <Route path="portfolio" element={<Portfolio/>}/>
                             <Route path="weatherapp" element={<WeatherApp/>}/>
+                            <Route path="nsn" element={<NSN/>}/>
                             <Route path="contact" element={<Contact/>}/>
                             <Route path="*" element={<NoPage/>}/>
                         </Route>
